@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("GettingStartedBasics :");
+
+            GettingStartedBasics basics = new GettingStartedBasics();   
+           // basics.AreaOfSqr();
+            //basics.SwapWithSeconVar();
+            //basics.SwapWithOutSeconVar();
+            basics.SumOfAllNum();
         }
     }
 }
