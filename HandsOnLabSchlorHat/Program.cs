@@ -15,9 +15,12 @@
             StatementsAndLoops statementsAndLoops = new StatementsAndLoops();
             //statementsAndLoops.CheckCharIsAlphaOrNot();
             //statementsAndLoops.CheckNumIsEvenOrOdd();
-           // statementsAndLoops.RighttrianglePattern();
-            statementsAndLoops.LeftTrianglePattern();
-
+            // statementsAndLoops.RighttrianglePattern();
+            // statementsAndLoops.LeftTrianglePattern();
+            Array_String array_String = new Array_String();
+            //array_String.AvgArrayElements();
+            //array_String.LargestArrayElements();
+            array_String.RotateMatrixRight();
 
         }
     }
