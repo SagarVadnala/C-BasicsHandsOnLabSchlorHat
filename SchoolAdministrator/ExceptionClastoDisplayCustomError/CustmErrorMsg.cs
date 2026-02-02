@@ -27,10 +27,10 @@ namespace oops.ExceptionClastoDisplayCustomError
             { 
                 Console.WriteLine(" ");
                 Console.WriteLine("Output of GetHashCode() method: ");
-                Console.WriteLine(exception.GetHashCode);
+                Console.WriteLine(exception.GetHashCode());
                 Console.WriteLine(" ");
                 Console.WriteLine("Output of GetBaseException method: ");
-                Console.WriteLine(exception.GetBaseException);
+                Console.WriteLine(exception.GetBaseException().Message);
 
                 //Output of GetHashCode() method:
                 //System.Func`1[System.Int32]

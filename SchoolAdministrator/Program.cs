@@ -1,4 +1,5 @@
 ﻿using oops;
+using oops.ClassesForBuildingDiffTypesOfVehicles;
 using oops.ExceptionClastoDisplayCustomError;
 
 namespace SchoolAdministrator
@@ -14,7 +15,10 @@ namespace SchoolAdministrator
 
             CustmErrorMsg custmErrorMsg = new CustmErrorMsg();
 
-            custmErrorMsg.ArthmaticExeption();
+            //custmErrorMsg.ArthmaticExeption();
+
+            SwitchClass switchClass = new SwitchClass();
+            switchClass.switchCases();
         }
     }
 }
