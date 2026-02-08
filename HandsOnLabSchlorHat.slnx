@@ -2,6 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
   </Folder>
+  <Project Path="AsyncAwait/AsyncAwait.csproj" Id="4fb2ad7b-6dac-4c39-900c-1d4804307a3d" />
   <Project Path="HandsOnLabSchlorHat/HandsOnLabSchlorHat.csproj" />
   <Project Path="SchoolAdministrator/oops.csproj" />
 </Solution>
